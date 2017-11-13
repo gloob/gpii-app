@@ -34,6 +34,6 @@ require("./src/logging.js");
 require("./src/app.js");
 
 kettle.config.loadConfig({
-    configName: kettle.config.getConfigName("app"),
+    configName: kettle.config.getConfigName("app.demo"),
     configPath: kettle.config.getConfigPath(__dirname + "/configs")
 });
